@@ -1,0 +1,14 @@
+npx create create-react-app appname
+cd appname
+npm start
+
+npm install react-bootstrap bootstrap
+(import 'bootstrap/dist/css/bootstrap.css' to app.js)
+
+
+npm install react-router-dom --save
+(import (BrowserRouter) from 'react-router-dom' in index.js)
+
+
+*import {BrowserRouter as Router,Switch,Route,Link} from 'react-router-dom'
+
