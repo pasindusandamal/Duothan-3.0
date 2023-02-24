@@ -48,19 +48,20 @@
         <div class="col">Inventory</div>
 
         <div class="col">
-          <button class="btn btn-secondary" style="margin-left: 482px">
-            <a href="./dashboard_add_drug.html">Add new Drug</a>
+          <br>
+          <button class="btn btn-success" style="margin-left: 482px">
+            <a href="./dashboard_add_drug.html" style="text-decoration: none; color: white;">Add new Drug</a>
+            
           </button>
+          <br>
         </div>
       </div>
 
       <div class="row">
         <div class="col-2">
-          <div class="btn btn-danger">Inventory</div>
-          <br /><br />
-          <div class="btn btn-danger">Profile</div>
-          <br /><br />
-          <div class="btn btn-danger">Logout</div>
+          <A href="./dashboard_inventory.html"><div class="btn btn-danger">Inventory</div></A><br><br>
+          <A href="./dashboard_profile.html"><div class="btn btn-danger">Profile</div></A><br><br>
+          <A href="./Signin.php"><div class="btn btn-danger">Logout</div><br></A>
         </div>
         <div class="col-10">
           <table class="table">
@@ -98,5 +99,13 @@
         </div>
       </div>
     </div>
+
+    <script>
+      function myFunction() {
+        alert("This will redirect to another page!");
+        window.location.href = "./Signin.php";
+      }
+      </script>
+
   </body>
 </html>
