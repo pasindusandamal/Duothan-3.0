@@ -21,24 +21,24 @@
         <form action="register.php" method="post">
           <div class="mb-3">
            
-            <input type="email" class="form-control"placeholder="Pharmacy Name" name="name">
+            <input type="text" class="form-control"placeholder="Pharmacy Name" name="name">
       
           </div>
           <div class="mb-3">
         
-            <input type="password" class="form-control"  placeholder="Email" name="email">
+            <input type="email" class="form-control"  placeholder="Email" name="email">
           </div>
           <div class="mb-3">
         
-            <input type="password" class="form-control"  placeholder="Address" name="address">
+            <input type="text" class="form-control"  placeholder="Address" name="address">
           </div>
           <div class="mb-3">
         
-            <input type="password" class="form-control"  placeholder="Phone Number" name="number">
+            <input type="text" class="form-control"  placeholder="Phone Number" name="number">
           </div>
           <div class="mb-3">
         
-            <input type="password" class="form-control"  placeholder="Pharmacy Licine Number" name="lnumber">
+            <input type="text" class="form-control"  placeholder="Pharmacy Licine Number" name="lnumber">
           </div>
           <div class="mb-3">
         
@@ -56,7 +56,7 @@
           </div>
           <div class="d-grid gap-2">
            
-            <button class="btn btn-primary" type="button">Sign Up</button>
+            <button class="btn btn-primary" type="submit">Sign Up</button>
           </div>
         </form>
        </div>
