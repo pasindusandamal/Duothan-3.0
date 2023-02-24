@@ -18,7 +18,7 @@
       $password = $_POST['password'];
       $cpassword = $_POST['cpassword'];
       
-      $request = " insert into user values('{$name}','{$email}','{$address}','{$mobile}') ";
+      $request = " insert into user values('{$name}','{$email}','{$address}','{$mobile}','{$lnumber}','{$password}','{$cpassword}') ";
       $result=mysqli_query($connection, $request);
 
       
