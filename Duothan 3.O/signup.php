@@ -13,7 +13,7 @@
     <title>Duthon 3.O</title>
   </head>
   <body>
-    <div class="container" style="width:400px; margin-top:50px;">
+    <div class="container">
       <div class="row">
 
        <div class="col">
@@ -47,17 +47,16 @@
 
           <div class="mb-3">
         
-            <input type="password" class="form-control" placeholder="Confirm Password" name="cpassword">
+            <input type="password" class="form-control" " placeholder="Confirm Password" name="cpassword">
           </div>
 
           <div class="mb-3 form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">I agree to <a href="" style="text-decoration: none;">Terms of Services</a> and <a href="" style="text-decoration: none;">Privacy Policy</a></label>
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
           </div>
           <div class="d-grid gap-2">
            
             <button class="btn btn-primary" type="submit">Sign Up</button>
-            <center><p>Already have an account?<a href="signin.php" style="text-decoration: none;">Sign In</a></p></center>
           </div>
         </form>
        </div>

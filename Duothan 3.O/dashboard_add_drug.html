@@ -31,43 +31,51 @@
 
             <div class="col-10">
               <div class="row">
+                <h4>Inventory/Add new drug</h4><br><br>
                 <div class="col">
-                  <h4>Inventory/Add new drug</h4>
+                  
                   <form>
+
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected>Select Drug Name</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                    <br>
                     <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                      
+                      <input type="password" class="form-control" placeholder="Supplier">
                     </div>
                     <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1">
+          
+                      <input type="password" class="form-control" placeholder="Select Expiration Date">
                     </div>
-                    <div class="mb-3 form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    <div class="mb-3">
+          
+                      <input type="password" class="form-control" placeholder="Unit Price">
                     </div>
+                    
                     
                   
                 </div>
                 <div class="col">
                   
                     <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  
+                      <input type="email" class="form-control" placeholder="Manufacturer">
+                     
                     </div>
                     <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="mb-3 form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Save</button>
-                  </form>
+
+                      <input type="password" class="form-control" placeholder="NDC(National Drug Code)">
+                    </div>          
                 </div>
+                <div class="d-grid gap-2">
+                  <button class="btn btn-primary" type="submit">Add Drug</button>
+               
+                </div>
+              </form>
               </div>
             </div>
         </div>

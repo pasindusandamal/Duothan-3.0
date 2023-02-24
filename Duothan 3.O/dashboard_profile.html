@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+          <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand">Logo</a>
+              <form class="d-flex">
+               
+                <button class="btn btn-outline-success" type="submit">Pharmacy Name</button>
+              </form>
+            </div>
+          </nav>
+        </div>
+        <div class="row">
+            <div class="col-2">
+              <button class="btn btn-success">Inventory</button><br><br>
+              <button class="btn btn-success">Profile</button><br><br>
+              <button class="btn btn-success">Logout</button><br>
+            </div>
+
+            <div class="col-10">
+              <div class="row">
+                <h4>Pharmacy Information</h4><br><br>
+                <div class="col">
+
+                
+                  <form action="insert_profile.php" method="post">
+                   
+                    <div class="mb-3">
+                      <input type="text" class="form-control" placeholder="Sample Pharmacy" name="pname">
+                    </div>
+                    <div class="mb-3">
+                      <input type="text" class="form-control" placeholder="Mobile Number" name="pmobile" >
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Website" name="pwebsite">
+                      </div>
+                      <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Pharmacy Licine" name="plicine">
+                      </div>   
+                </div>
+                <div class="col">
+                      <div class="mb-3">
+                      <input type="text" class="form-control" placeholder="Address" name="padd">
+                </div>
+                    <div class="mb-3">
+                     
+                      <input type="email" class="form-control" placeholder="Email" name="pemail">
+                    </div>  
+
+                    <div class="mb-3">
+                     
+                        <input type="text" class="form-control" placeholder="Operating Hours" name="phours">
+                      </div>  
+                </div>
+              </div>
+
+              <br>
+              <h4>Owner Information</h4><br>
+
+              <div class="row">
+                <div class="col">
+                 
+                 
+                    <div class="mb-3">
+                      <input type="text" class="form-control" placeholder="Name" name="oname">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Owner Mobile Number" name="omobile">
+                      </div>
+                      <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Owner NIC" name="onic">
+                      </div>   
+                </div>
+                <div class="col">
+                      <div class="mb-3">
+                      <input type="text" class="form-control" placeholder="Address" name="oadd">
+                </div>
+                    <div class="mb-3">
+                     
+                      <input type="email" class="form-control" placeholder="Owner Email" name="oemail">
+                    </div>
+                    
+                   
+                </div>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary" type="submit">Save</button>
+                  
+                  </div>
+              </form>
+              </div>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

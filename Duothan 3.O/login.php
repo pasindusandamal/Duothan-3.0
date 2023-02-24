@@ -13,11 +13,11 @@ if(!$conn){
 }
  
 
-$name = $_POST['name'];
+$email = $_POST['email'];
 $password = $_POST['password'];
   
 
-$check_user_query = "SELECT * FROM user WHERE name='$name' AND password='$password'";
+$check_user_query = "SELECT * FROM user WHERE email='$email' AND psd='$password'";
 $run_query = mysqli_query($conn,$check_user_query);
  
 
